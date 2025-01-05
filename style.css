@@ -16,27 +16,29 @@
 .AcceptableHeader{
   padding-top: 10px;	
   padding-bottom: 10px;
+  border: 0px solid red;
 }
 
-.AcceptableJNL, .AcceptableJNLcapital{
+.AcceptableJNLcapital, .AcceptableJNLregular{
+  display: inline-block; 
   font-family: "Acceptable JNL";
-  font-size: 34px;
   font-style: normal;
   font-weight: 600;
-  margin: 0;
-  line-height: 50x;
-  vertical-align: middle;
 }
+
 .AcceptableJNLcapital{
-  vertical-align: middle;
-  font-size: 44px;
+  font-size: 70px;
+  border: 0px solid red;
+  margin-top:-15px;
+}
+
+.AcceptableJNLregular{
+  font-size: 50px;
+  vertical-align: top;
 }
 
 .AcceptableRed{
   color: #C41230;
-}
-.AcceptableDot{
-	vertical-align: bottom;
 }
 
 .bg-image {
