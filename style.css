@@ -4,6 +4,41 @@
   margin: auto;
 }
 
+@font-face {
+    font-family: "Acceptable JNL";
+	src: url("./assets/Acceptable.eot");
+	src: url("./assets/Acceptable.eot?#iefix")format("embedded-opentype"),
+	url("./assets/Acceptable.woff2")format("woff2"),
+	url("./assets/Acceptable.woff")format("woff"),
+	url("./assets/Acceptable.ttf")format("truetype");
+}
+
+.AcceptableHeader{
+  padding-top: 10px;	
+  padding-bottom: 10px;
+}
+
+.AcceptableJNL, .AcceptableJNLcapital{
+  font-family: "Acceptable JNL";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  line-height: 50x;
+  vertical-align: middle;
+}
+.AcceptableJNLcapital{
+  vertical-align: middle;
+  font-size: 44px;
+}
+
+.AcceptableRed{
+  color: #C41230;
+}
+.AcceptableDot{
+	vertical-align: bottom;
+}
+
 .bg-image {
   position: absolute;
   bottom: -88%;
