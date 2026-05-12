@@ -153,11 +153,13 @@
 #MenuSide {
 	height: 200px;
   	width: 66%;
+	display: inline-block
 }
 
 #CalendarSide {
 	height: 200px;
   	width: 33%;	
+	display: inline-block
 }
 
 @media screen and (max-width: 1024px) {
