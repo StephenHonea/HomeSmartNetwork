@@ -156,14 +156,14 @@
 }
 
 .MenuSide {
-	height: 200px;
+	height: 600px;
   	width: 66%; /* Ensure total width doesn't exceed 100% */
  	display: inline-block;
 	border: 1px solid red;
 }
 
 .CalendarSide {
-	height: 200px;
+	height: 600px;
   	width: 33%; /* Ensure total width doesn't exceed 100% */
  	display: inline-block;	
 	border: 1px solid blue;
