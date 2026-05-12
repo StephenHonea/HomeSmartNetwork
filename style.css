@@ -160,6 +160,7 @@
 }
 
 .MenuSide {
+	height: 100%
   	width: 66%; /* Ensure total width doesn't exceed 100% */
   	display: inline-block;
   	vertical-align: top;
@@ -167,6 +168,7 @@
 }
 
 .CalendarSide {
+	height: 100%
   	width: 33%; /* Ensure total width doesn't exceed 100% */
  	display: inline-block;
   	vertical-align: top;
