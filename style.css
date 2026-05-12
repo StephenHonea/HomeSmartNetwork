@@ -150,6 +150,16 @@
   cursor: pointer;
 }
 
+#MenuSide{
+	height: 200px;
+  	width: 66%;
+}
+
+#CalendarSide{
+	height: 200px;
+  	width: 33%;	
+}
+
 @media screen and (max-width: 1024px) {
     .container {
         background-size: contain;
