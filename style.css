@@ -156,12 +156,12 @@
   	display: flex;
 }
 
-#MenuSide {
+.MenuSide {
 	height: 200px;
   	width: 65%;
 }
 
-#CalendarSide {
+.CalendarSide {
 	height: 200px;
   	width: 33%;	
 }
