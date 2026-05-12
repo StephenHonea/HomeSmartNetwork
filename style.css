@@ -153,19 +153,24 @@
 .content-section{
   	width: 100%;
  	max-width: 900px;
+	display: flex;
+  	align-items: flex-start; /* Aligns children to the top */
+  	height: 400px; /* Example height */
+}
 }
 
 .MenuSide {
-	height: 400px;
   	width: 66%; /* Ensure total width doesn't exceed 100% */
- 	display: inline-block;
+  	display: inline-block;
+  	vertical-align: top;
 	border: 1px solid red;
 }
 
 .CalendarSide {
 	height: 400px;
   	width: 33%; /* Ensure total width doesn't exceed 100% */
- 	display: inline-block;	
+ 	display: inline-block;
+  	vertical-align: top;
 	border: 1px solid blue;
 }
 
