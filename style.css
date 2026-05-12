@@ -150,12 +150,12 @@
   cursor: pointer;
 }
 
-#MenuSide{
+#MenuSide {
 	height: 200px;
   	width: 66%;
 }
 
-#CalendarSide{
+#CalendarSide {
 	height: 200px;
   	width: 33%;	
 }
