@@ -167,7 +167,6 @@
 }
 
 .CalendarSide {
-	height: 400px;
   	width: 33%; /* Ensure total width doesn't exceed 100% */
  	display: inline-block;
   	vertical-align: top;
