@@ -150,6 +150,11 @@
   cursor: pointer;
 }
 
+.content-section{
+  	width: 100%;
+ 	max-width: 900px;
+}
+
 #MenuSide {
 	height: 200px;
   	width: 66%;
