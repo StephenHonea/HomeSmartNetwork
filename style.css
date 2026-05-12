@@ -153,17 +153,19 @@
 .content-section{
   	width: 100%;
  	max-width: 900px;
-  	display: flex;
 }
 
 .MenuSide {
 	height: 200px;
-  	width: 65%;
+  	width: 66%; /* Ensure total width doesn't exceed 100% */
+ 	display: inline-block;
+
 }
 
 .CalendarSide {
 	height: 200px;
-  	width: 33%;	
+  	width: 33%; /* Ensure total width doesn't exceed 100% */
+ 	display: inline-block;	
 }
 
 @media screen and (max-width: 1024px) {
