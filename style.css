@@ -322,4 +322,41 @@
 	border-bottom: 2px solid black;
 }
 
+@media screen and (max-width: 600px) {
+
+.container{
+    background-size: contain;
+    background-position-y: center;
+    }
+  pre {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+    width: 100%;
+  }
+
+  body {
+    width: 100vw;
+  }
+
+  .header img {
+    margin-left: 0;
+  }
+
+  .installation-steps {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  ol {
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+}
 
