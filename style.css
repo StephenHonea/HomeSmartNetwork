@@ -14,7 +14,7 @@
 }
 
 .AcceptableHeader{
-  padding-top: 10px;	
+  padding-top: 30px;	
   padding-bottom: 10px;
   border: 0px solid red;
 }
@@ -46,152 +46,113 @@
   bottom: -88%;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 165px 0 124px;
-  width: 100%;
-  margin: auto;
-  border: #fbab40;
-  height: 100vh;
-  background-color: #242628;
-  background-image: url(./assets/world.svg);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 70px;
-  background-origin: padding-box;
-}
-
-.header h3 {
-  text-align: center;
-  color: #ff9e40;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  margin: 0;
-  line-height: 36px;
-}
-
-.header {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  font-style: normal;
-}
-
-.header > h1 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 150%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
-}
-
-.header > p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 150%;
-  text-align: center;
-  color: #ffffff;
-  flex-grow: 0;
-  margin: 16px 0px;
-}
-
-.options {
-  display: flex;
-  flex-direction: row;
-}
-
-.options > a {
-  color: #ffffff;
-  text-decoration: underline;
-  margin: 0px 8px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 150%;
-}
-
-.options > a:first-of-type {
-  margin-right: 30px;
-}
-
-.logo {
-  margin-top: 75px;
-}
-
-.logo > img {
-  width: 160px;
-  height: 64px;
-}
-
-.learn-more > a > button {
-  background: #f6821f;
-  border-radius: 4px;
-  border: none;
-  width: 180px;
-  margin-top: 78px;
-  height: 55px;
-  color: #ffffff;
-  text-align: center;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  background: rgba(246, 130, 31, 1);
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-}
- 
 /* Menu and Calendar Section*/
 
-.content-section{
-  	width: 100%;
- 	max-width: 900px;
-	display: flex;
-  	align-items: flex-start; /* Aligns children to the top */
-  	height: 400px; /* Example height */
+.GoogleSearchBar{
+	width: 90%;
+	border: 0px solid red;
+	display: flex; /* Allows divs to be alligned */
+	flex-direction: row; /* You guessed it, puts them in a row */
+	gap: 10px; /* Modern way to add space between items */
+}
+.search-bar{
+		width: 100%;
+			border: 0px solid yellow;
+}
+.search-button{
+			border: 0px solid yellow;
 }
 
+.search-button button{
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background: #000;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Hover effect to improve interactivity */
+.search-button button:hover {
+  background-color: #2196F3; /* Darker blue on hover */
+}
+
+.search-bar-container form{
+	width: 100%;
+}
+
+.search-bar-container {
+  position: relative;
+  width:100%;
+}
+
+.search-bar-container .icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.search-bar-container input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Extra left padding for the icon */
+  border: 2px solid #000;
+  border-radius: 25px;
+}
+
+.content-section{
+  	margin-top: 10px;
+	width: 800px;
+ 	max-width: 800px;
+	display: flex;
+  	align-items: flex-start; /* Aligns children to the top */
+  	height: 300px; /* Example height */
+}
 
 .MenuSide {
 	text-align: left;
 	height: 100%;
-  	width: 66%; /* Ensure total width doesn't exceed 100% */
+  	width: 60%; /* Ensure total width doesn't exceed 100% */
   	display: inline-block;
   	vertical-align: top;
-	border: 1px solid red;
+	border: 0px solid red;
 }
-
 
 .navbar {
   overflow: hidden;
   background-color: #333;
+  	width: 900px;
 }
 
 .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
+  	font-family: "Quicksand", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 17px;
   border: none;
   outline: none;
   color: white;
@@ -202,7 +163,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #2196F3;
 }
 
 .dropdown-content {
@@ -233,10 +194,10 @@
 
 .CalendarSide {
 	height: 100%;
-  	width: 33%; /* Ensure total width doesn't exceed 100% */
+  	width: 40%; /* Ensure total width doesn't exceed 100% */
  	display: inline-block;
   	vertical-align: top;
-	border: 1px solid blue;
+	border: 0px solid blue;
 }
 
  /* Shortcuts Section*/
@@ -245,15 +206,29 @@
   box-sizing: border-box;
 }
 
-.search-container {
+.TitleBar{
+	width: 900px;
+	padding: 10px;
+	background-color: #000;
+	text-align: left;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: "Quicksand", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.ShortCut-container {
   display: flex;
   flex-wrap: wrap;
   max-width: 900px;
 }
 
-.search-item {
-  padding: 30px 10px;
-  border: 1px solid grey;
+.ShortCut-item {
+  padding: 0px 0px;
+  border: 0px solid grey;
   text-align: center;
   margin: 5px;
   width: 150px;
@@ -261,16 +236,91 @@
   flex-grow: 1;
 }
 
-.search-placeholder {
+.ShortCut-placeholder {
   width: 150px;
   height: 2px;
   margin: 5px;
-  background-color: red;
-  
+  background-color: #fff;
   flex-basis: 150px;
   flex-grow: 1;
 }
 
+.ShortCutIcon{
+	max-width: 100px;
+	max-height: 100px;
+	border: 0px solid red;
+}
+.ShortCut-container a {
+	font-family: "Quicksand", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	color: #000;
+}
+
+.ShortCut-item p {
+	margin-bottom: 10px
+}
+.ShortCut-item div{
+	border: 0px solid red;
+	padding: 10px 10px;
+}
+
+.ShortCut-item:hover, .ShortCut-item a:hover{
+	background: #2196F3; /* make this whatever you want */
+	color: #fff;
+	border-radius: 25px;
+}
+.ShortCut-item:hover + .ShortCut-container a{
+  color: white;
+}
+
+.OpenVPN{
+	width: 800px;
+  text-align: left;	
+}
+
+.OpenVPN p {
+	padding-bottom: 10px;
+	font-family: "Quicksand", sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+	color: #000;
+}
+.OpenVPN img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.Printer-container{
+	width: 800px;
+	  text-align: left;	
+}
+.printer-section{
+	border: 0px solid red;
+	display: flex; /* Allows divs to be alligned */
+	flex-direction: row; /* You guessed it, puts them in a row */
+	gap: 10px; /* Modern way to add space between items */
+	align-items: flex-start; /* Aligns items to the top */
+	vertical-align: top;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.printer-information{
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	align-items: flex-start; /* Aligns items to the top */
+}
+.Offices{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+}
 
 @media screen and (max-width: 1024px) {
     .container {
